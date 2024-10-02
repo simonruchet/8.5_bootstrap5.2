@@ -12,3 +12,51 @@ img,
 video {
   display: block;
 }
+@import "bootstrap/scss/bootstrap-grid";
+
+body {
+  background: #f7f7f7;
+}
+
+.header {
+  height: 102px;
+  flex-shrink: 0;
+  background: #fff;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 60px;
+}
+
+.articles {
+  width: 332px;
+  height: 369px;
+  flex-shrink: 0;
+  background: #fff;
+}
+
+.articles h1 {
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 24px;
+}
+
+.articles img {
+  width: 100%;
+}
+
+.articles p {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.articles b {
+  font-weight: 500;
+  color: #b3b3b3;
+}
