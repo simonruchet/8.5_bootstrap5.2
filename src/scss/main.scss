@@ -20,7 +20,6 @@ body {
 
 .header {
   height: 102px;
-  flex-shrink: 0;
   background: #fff;
   text-align: center;
   font-family: "DM Serif Display";
@@ -28,10 +27,9 @@ body {
 }
 
 .articles {
-  width: 332px;
-  height: 369px;
-  flex-shrink: 0;
   background: #fff;
+  padding-bottom: 30px;
+  margin-top: 20px;
 }
 
 .articles h1 {
@@ -40,8 +38,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
-  margin-top: 25px;
-  margin-bottom: 24px;
+  margin: 25px 10px 50px 10px;
 }
 
 .articles img {
@@ -59,4 +56,26 @@ body {
 .articles b {
   font-weight: 500;
   color: #b3b3b3;
+}
+
+.articles h2 {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin: 25px 10px 50px 10px;
+}
+
+.reviewsheader {
+  background: #eee;
+  margin-top: 20px;
+}
+
+.reviewsheader h1 {
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 20px;
 }
